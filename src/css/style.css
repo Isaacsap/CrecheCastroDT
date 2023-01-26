@@ -1,0 +1,240 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* reset */
+
+.top-header{
+    background-color: rgb(243, 220, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+.top-header i{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.barra img{
+    display: block;
+    width: 100%;
+    height: 3vh;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 0px;
+    font-weight: 600;
+    max-width: 100%;
+}
+.logo{
+    padding-top: 10px;
+}
+ul.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 20px;
+    
+}
+.menu li{
+    margin: 25px;
+    
+}
+.menu li .amarelo{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.amarelo:hover{
+    background-color: rgb(250, 253, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .azul{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.azul:hover{
+    background-color: rgb(144, 238, 233);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .verde{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.verde:hover{
+    background-color: rgb(145, 248, 104);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .vermelho{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.vermelho:hover{
+    background-color: rgb(253, 84, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .rosa{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.rosa:hover{
+    background-color: rgb(255, 196, 196);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.wpp-button a{
+    background-color: rgb(98, 214, 3);
+    color: #fff;
+    border: none;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+/* finalização do header */
+
+body{
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    background-image: url('../imgs/fundo-ceu.jpeg')
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 2240px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 100%;
+    height: 850px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+  /* Finalização Carrosel */
+
+.tittle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 35px;
+    padding-top: 25px;
+}
+.tittle h2{
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 25px;
+    border: 1px solid #ccc;
+}
+.historia{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.fachada{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding-top: 45px;
+    margin: 50px;
+    padding-right: 50px;
+}
+
+.fachada h3{
+    padding-top: 50px;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(252, 243, 192);
+    max-width: 950px;
+    max-height: 650px;
+    font-size: 42px;
+    border-radius: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.fachada img{
+    padding-left: 50px;
+    width: 100%;
+    border-radius: 40px;
+}
