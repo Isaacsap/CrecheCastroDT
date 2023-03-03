@@ -1,0 +1,364 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* reset */
+
+.top-header{
+    background-color: rgb(243, 220, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+.top-header i{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.barra img{
+    display: block;
+    width: 100%;
+    height: 3vh;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 0px;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+.logo{
+    padding-top: 10px;
+}
+.unidade{
+    margin-top: 0px;
+    margin-right: 55px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+ul.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 15px;
+    
+}
+.menu li{
+    margin: 25px;
+    
+}
+.menu li .amarelo{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.amarelo:hover{
+    background-color: rgb(250, 253, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .azul{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.azul:hover{
+    background-color: rgb(144, 238, 233);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .verde{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.verde:hover{
+    background-color: rgb(145, 248, 104);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .vermelho{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.vermelho:hover{
+    background-color: rgb(253, 84, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .rosa{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.rosa:hover{
+    background-color: rgb(255, 196, 196);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.wpp-button a{
+    background-color: rgb(98, 214, 3);
+    color: #fff;
+    border: none;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+/* finalização do header */
+
+body{
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    background-image: url('../imgs/fundo-ceu.jpeg')
+}
+
+.container {
+    position: relative;
+    padding: 15px;
+    max-width: 2240px;
+    margin: 0 auto;
+    background-color: #fff;
+  }
+  
+  .gallery-wrapper {
+    overflow-x: auto;
+  }
+  
+  .arrow-left,
+  .arrow-right {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: auto;
+    bottom: 0;
+    font-size: 20px;
+    line-height: 250px;
+    width: 40px;
+    color: #fff;
+    transition: all 600ms ease-in-out;
+    background: linear-gradient(to left, transparent 0%, black 200%);
+    opacity: 0.1;
+    cursor: pointer;
+    border: none;
+  }
+  
+  .arrow-left:hover,
+  .arrow-right:hover {
+    opacity: 1;
+  }
+  
+  .arrow-right {
+    right: 0;
+    left: auto;
+    text-align: right;
+    background: linear-gradient(to right, transparent 0%, black 200%);
+  }
+  
+  .gallery {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 15px;
+  }
+  
+  .item {
+    width: 100%;
+    height: 850px;
+    flex-shrink: 0;
+    transition: all 600ms ease-in-out;
+    opacity: 0.5;
+  }
+  
+  .current-item {
+    opacity: 1;
+  }
+  
+  .gallery-wrapper::-webkit-scrollbar {
+    display: none;
+  }
+  .gallery-wrapper {
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
+  }
+  /* Finalização Carrosel */
+
+
+.historia{
+    padding-left: 10px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 60vh;
+}
+.fachada{
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  margin-right: 20px;
+}
+.cor-fundo-historia{
+  background-color: rgb(245, 232, 119);
+  border-radius: 20px;
+}
+.titulo-historia{
+
+  width: 100%;
+  font-weight: 600;
+  font-size: 50px;
+  text-align: center;
+  
+}
+.txt-historia{
+  font-size: 30px;
+}
+
+.escola{
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+.escola img{
+  display: flex;
+  width: 480px;
+}
+
+footer{
+  padding-top: 100px;
+
+}
+.rodape{
+    background-image: url("../imgs/Cream\ Illustration\ Email\ Header.png");
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.barra-fundo{
+    width: 100%;
+}
+.logo-rodape img{
+    width: 350px;
+    
+}
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    padding-bottom: 65px;
+}
+.contato{
+    display: flex;
+}
+.contato i{
+    color: green;
+    margin-right: 10px;
+    font-weight: 700;
+    margin-bottom: 1px;
+}
+
+@media (max-width: 430px) {
+    .logo{
+        display: flex;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .top-header{
+        justify-content: space-around;
+    }
+  .header{
+    display: grid;
+    justify-content: center;
+    
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.menu{
+    display: inline;
+    font-size: 12px;
+    flex-direction: column;
+  }
+  .carrosel .container .item{
+    height: 400px;
+    width: 400px;
+  }
+  .fachada{
+    display: flex;
+    flex-direction: column;
+  }
+  .titulo-historia{
+    font-size: 30px;
+  }
+  .txt-historia{
+    font-size: 20px;
+  }
+  .escola img{
+    width: 100%;
+  }
+  .rodape{
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape img{
+    width: 250px;
+  }
+  .contato{
+    padding-bottom: 20px;
+  }
+  .contato a{
+    margin-top: 55px;
+  }
+}
+@media (max-width: 1345px) {
+
+  .logo{
+    display: flex;
+    width: 170px;
+  }
+  .menu{
+    font-size: 13px
+  }
+  .unidade{
+    display: flex;
+    justify-content: baseline;
+  }
+}
+
+@media (max-width: 1138px) {
+  .historia{
+    height: 110vh;
+    display: flex;
+    flex-direction: column;
+  }
+}

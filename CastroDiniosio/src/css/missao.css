@@ -1,0 +1,382 @@
+*{
+  margin: 0 ;
+  padding: 0;
+  
+}
+
+ul{
+  list-style-type: none;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+/* reset */
+
+.top-header{
+  background-color: rgb(243, 220, 119);
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  align-items: flex-end;
+}
+.top-header i{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.barra img{
+  display: block;
+  width: 100%;
+  height: 3vh;
+}
+.header{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  padding-top: 0px;
+  font-weight: 600;
+  max-width: 100%;
+}
+
+.logo{
+  padding-top: 10px;
+}
+.unidade{
+  margin-top: 0px;
+  margin-right: 55px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+ul.menu{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding-top: 25px;
+  font-size: 15px;
+  
+}
+.menu li{
+  margin: 25px;
+  
+}
+.menu li .amarelo{
+  transition: 0.5s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.amarelo:hover{
+  background-color: rgb(250, 253, 84);
+  padding: 5px;
+  border-radius: 30px;
+}
+.menu li .azul{
+  transition: 0.5s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.azul:hover{
+  background-color: rgb(144, 238, 233);
+  padding: 5px;
+  border-radius: 30px;
+}
+.menu li .verde{
+  transition: 0.5s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.verde:hover{
+  background-color: rgb(145, 248, 104);
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.menu li .vermelho{
+  transition: 0.5s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.vermelho:hover{
+  background-color: rgb(253, 84, 84);
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.menu li .rosa{
+  transition: 0.5s ease-in-out;
+  color: rgb(255, 255, 255);
+}
+
+.rosa:hover{
+  background-color: rgb(255, 196, 196);
+  padding: 5px;
+  border-radius: 30px;
+}
+
+.wpp-button a{
+  background-color: rgb(98, 214, 3);
+  color: #fff;
+  border: none;
+  padding: 5px 5px 5px;
+  border-radius: 10px;
+}
+
+/* finalização do header */
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.title h1{
+    background-color: rgb(252, 238, 176);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.intro{
+    padding-bottom: 180px;
+}
+.servlist{
+    display: block;
+    background-color: rgb(250, 252, 153);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.container-missao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 125vh;
+}
+.txt-missao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1850px;
+    font-size: 25px;
+    line-height: 1,5;
+}
+
+.txt-missao p{
+    font-size: 25px;
+    padding: 40px;
+}
+.txt-1{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 10px;
+    text-align: justify;
+}
+
+.txt-2{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 20px;
+    text-align: justify;
+}
+
+.txt-3{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 10px;
+}
+
+.colagem{
+    margin-left: 35px;
+}
+@media (max-width: 390px){
+    .container-missao{
+        height: 180vh;
+    }
+
+    .container{
+        display: flex;
+        height: 20vh;
+        flex-direction: column;
+    }
+    .container img{
+        width: 580px;
+    }
+    .title{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+   
+    .txt-missao{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .txt-missao p{
+        font-size: 15px;
+    }
+    .txt-1 {
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .top-header{
+        justify-content: space-around;
+    }
+  .header{
+    display: grid;
+    justify-content: center;
+    
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.menu{
+    display: inline;
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .container{
+    width: 390px;
+  }
+  .turmas{
+    width: 400px;
+  }
+  rodape{
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape img{
+    width: 150px;
+  }
+  .contato{
+    padding-bottom: 20px;
+  }
+  .contato a{
+    margin-top: 55px;
+  }
+}
+@media (max-width: 414px){
+    .container-missao{
+        height: 180vh;
+    }
+
+    .container{
+        display: flex;
+        height: 25vh;
+        flex-direction: column;
+    }
+    .container img{
+        width: 450px;
+    
+    }
+    .title{
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+   
+    .txt-missao{
+       
+    }
+    .txt-missao p{
+        font-size: 15px;
+    }
+    .txt-1 {
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .top-header{
+        justify-content: space-around;
+    }
+  .header{
+    display: grid;
+    justify-content: center;
+    
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.menu{
+    display: inline;
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .container{
+    width: 390px;
+  }
+  .colagem{
+    width: 400px;
+  }
+  rodape{
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape img{
+    width: 150px;
+  }
+  .contato{
+    padding-bottom: 20px;
+  }
+  .contato a{
+    margin-top: 55px;
+  }
+}
+@media (max-width: 1409px){
+    .container-missao{
+        height: 140vh;
+    }
+}
+@media (max-width: 1336px){
+    .container-missao{
+        height: 160vh;
+    }
+}
+@media (max-width: 1130px){
+    .container-missao{
+        height: 220vh;
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+@media (max-width: 1210px){
+   .header img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .container-missao{
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+}
+   .menu a{
+    font-size: 15px;
+   }
+}

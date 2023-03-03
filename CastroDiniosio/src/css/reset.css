@@ -1,0 +1,177 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* reset */
+
+.top-header{
+    background-color: rgb(243, 220, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+.top-header i{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.barra img{
+    display: block;
+    width: 100%;
+    height: 3vh;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 0px;
+    font-weight: 600;
+    max-width: 100%;
+}
+.logo{
+    padding-top: 10px;
+}
+/* ul.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 20px;
+    
+}
+.menu li{
+    margin: 25px;
+    
+}
+.menu li .amarelo{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.amarelo:hover{
+    background-color: rgb(250, 253, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .azul{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.azul:hover{
+    background-color: rgb(144, 238, 233);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .verde{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.verde:hover{
+    background-color: rgb(145, 248, 104);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .vermelho{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.vermelho:hover{
+    background-color: rgb(253, 84, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .rosa{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.rosa:hover{
+    background-color: rgb(255, 196, 196);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.wpp-button a{
+    background-color: rgb(98, 214, 3);
+    color: #fff;
+    border: none;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+} */
+
+/* finalização do header */
+
+body{
+    position: relative;
+    font-family: 'Outfit', sans-serif;
+    background-image: url('../imgs/fundo-ceu.jpeg')
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 95%;
+    height: 850px;
+}
+
+.rodape{
+    background-image: url("../imgs/Cream\ Illustration\ Email\ Header.png");
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.barra-fundo{
+    width: 100%;
+}
+.logo-rodape img{
+    width: 350px;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.contato{
+    display: flex;
+}
+.contato i{
+    color: green;
+    margin-right: 10px;
+    font-weight: 700;
+}
+
+@media (max-width: 1345px) {
+    .logo img{
+      width: 50px;
+      background-color: red;
+    }
+    .header{
+      display: flex;
+      justify-content: baseline;
+    }
+  }

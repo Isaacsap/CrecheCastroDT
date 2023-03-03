@@ -1,0 +1,225 @@
+*{
+    margin: 0 ;
+    padding: 0;
+  }
+  
+  ul{
+    list-style-type: none;
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+  }
+  /* reset */
+  
+  .top-header{
+    background-color: rgb(243, 220, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+  }
+  .top-header i{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  .barra img{
+    display: block;
+    width: 100%;
+    height: 3vh;
+  }
+  .header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 0px;
+    font-weight: 600;
+    max-width: 100%;
+  }
+  
+  .logo{
+    padding-top: 10px;
+  }
+  .unidade{
+    margin-top: 0px;
+    margin-right: 55px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+  }
+  ul.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 15px;
+    
+  }
+  .menu li{
+    margin: 25px;
+    
+  }
+  .menu li .amarelo{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+  }
+  
+  .amarelo:hover{
+    background-color: rgb(250, 253, 84);
+    padding: 5px;
+    border-radius: 30px;
+  }
+  .menu li .azul{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+  }
+  
+  .azul:hover{
+    background-color: rgb(144, 238, 233);
+    padding: 5px;
+    border-radius: 30px;
+  }
+  .menu li .verde{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+  }
+  
+  .verde:hover{
+    background-color: rgb(145, 248, 104);
+    padding: 5px;
+    border-radius: 30px;
+  }
+  
+  .menu li .vermelho{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+  }
+  
+  .vermelho:hover{
+    background-color: rgb(253, 84, 84);
+    padding: 5px;
+    border-radius: 30px;
+  }
+  
+  .menu li .rosa{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+  }
+  
+  .rosa:hover{
+    background-color: rgb(255, 196, 196);
+    padding: 5px;
+    border-radius: 30px;
+  }
+  
+  .wpp-button a{
+    background-color: rgb(98, 214, 3);
+    color: #fff;
+    border: none;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+  }
+  
+  /* finalização do header */
+.gallery-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 2vw;
+    padding: 0 2vw;
+}
+.gallery-items{
+    width: 340px;
+    height: 340px;
+    border: 10px solid #FFF;
+    box-shadow: 5px 5px 5px #0006;
+    flex-grow: 1;
+    transition: transform .5s linear;
+}
+.gallery-items img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-items:hover{
+    transform: scale(1.3);
+}
+
+
+footer{
+    padding-top: 100px;
+  
+  }
+  .rodape{
+      background-image: url("../imgs/Cream\ Illustration\ Email\ Header.png");
+      display: flex;
+      width: 100%;
+      justify-content: center;
+      align-items: center;
+  }
+  .barra-fundo{
+      width: 100%;
+  }
+  .logo-rodape img{
+      width: 350px;
+      
+  }
+  .infos{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px;
+      font-size: 20px;
+      padding-bottom: 65px;
+  }
+  .contato{
+      display: flex;
+  }
+  .contato i{
+      color: green;
+      margin-right: 10px;
+      font-weight: 700;
+      margin-bottom: 1px;
+  }
+
+  @media (max-width: 430px) {
+    .logo{
+        display: flex;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .header{
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .menu{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      ul.menu{
+        display: inline;
+        font-size: 10px;
+        flex-direction: column;
+      }
+      .rodape{
+        display: flex;
+        flex-direction: column;
+      }
+      .contato{
+        padding-bottom: 10px;
+      }
+      .contato a{
+        height: 5vh;
+      }
+  }

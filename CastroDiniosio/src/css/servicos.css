@@ -1,0 +1,447 @@
+*{
+    margin: 0 ;
+    padding: 0;
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+/* reset */
+
+.top-header{
+    background-color: rgb(243, 220, 119);
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: flex-end;
+}
+.top-header i{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.barra img{
+    display: block;
+    width: 100%;
+    height: 3vh;
+}
+.header{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    padding-top: 0px;
+    font-weight: 600;
+    max-width: 100%;
+}
+
+.logo{
+    padding-top: 10px;
+}
+.unidade{
+    margin-top: 0px;
+    margin-right: 55px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+ul.menu{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding-top: 25px;
+    font-size: 15px;
+    
+}
+.menu li{
+    margin: 25px;
+    
+}
+.menu li .amarelo{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.amarelo:hover{
+    background-color: rgb(250, 253, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .azul{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.azul:hover{
+    background-color: rgb(144, 238, 233);
+    padding: 5px;
+    border-radius: 30px;
+}
+.menu li .verde{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.verde:hover{
+    background-color: rgb(145, 248, 104);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .vermelho{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.vermelho:hover{
+    background-color: rgb(253, 84, 84);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.menu li .rosa{
+    transition: 0.5s ease-in-out;
+    color: rgb(255, 255, 255);
+}
+
+.rosa:hover{
+    background-color: rgb(255, 196, 196);
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.wpp-button a{
+    background-color: rgb(98, 214, 3);
+    color: #fff;
+    border: none;
+    padding: 5px 5px 5px;
+    border-radius: 10px;
+}
+
+/* finalização do header */
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.container img{
+    width: 100%;
+    height: 750px;
+}
+
+.title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px;
+    margin-bottom: 40px;
+    font-size: 20px;
+}
+
+.title h1{
+    background-color: rgb(246, 247, 247);
+    padding: 25px;
+    border-radius: 20px;
+    font-weight: 800;
+    
+}
+
+.servlist{
+    display: block;
+    background-color: rgb(250, 252, 153);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+    
+}
+.container-serv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85vh;
+    gap: 35px;
+}
+.txt-servicos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 1850px;
+    line-height: 1,5;
+}
+
+.txt-servicos p{
+    font-size: 25px;
+    padding: 15px;
+}
+
+.txt-1{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 10px;
+}
+
+.txt-2{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 20px;
+}
+
+.txt-3{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 10px;
+}
+.turmas{
+    padding-left: 30px;
+}
+
+.txt-4{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 10px;
+    line-height: 1.8;
+}
+
+.servlist-1{
+    display: block;
+    background-color: rgb(174, 236, 184);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.txt-5{
+    background-color: azure;
+    border-radius: 30px;
+    padding-left: 10px;
+    max-width: 1050px;
+    padding-bottom: 10px;
+    line-height: 1.8;
+}
+
+.servlist-2{
+    display: block;
+    background-color: rgb(243, 209, 241);
+    border-radius: 15px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+
+.rodape{
+    background-image: url("../imgs/Cream\ Illustration\ Email\ Header.png");
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.barra-fundo{
+    width: 100%;
+}
+.logo-rodape img{
+    width: 350px;
+}
+.infos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+.contato{
+    display: flex;
+}
+.contato i{
+    color: green;
+    margin-right: 10px;
+    font-weight: 700;
+}
+@media (max-width: 390px){
+    .container-serv{
+        height: 180vh;
+    }
+
+    .container{
+        display: flex;
+        height: 20vh;
+        flex-direction: column;
+    }
+    .container img{
+        width: 580px;
+    }
+    .title{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+   
+    .txt-servicos{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .txt-servicos p{
+        font-size: 15px;
+    }
+    .txt-1 {
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .top-header{
+        justify-content: space-around;
+    }
+  .header{
+    display: grid;
+    justify-content: center;
+    
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.menu{
+    display: inline;
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .container{
+    width: 390px;
+  }
+  .turmas{
+    width: 400px;
+  }
+  rodape{
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape img{
+    width: 150px;
+  }
+  .contato{
+    padding-bottom: 20px;
+  }
+  .contato a{
+    margin-top: 55px;
+  }
+}
+@media (max-width: 414px){
+    .container-serv{
+        height: 180vh;
+    }
+
+    .container{
+        display: flex;
+        height: 25vh;
+        flex-direction: column;
+    }
+    .container img{
+        width: 435px;
+    
+    }
+    .title{
+        font-size: 12px;
+        margin-top: 20px;
+    }
+   
+    .txt-servicos{
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+    .txt-servicos p{
+        font-size: 15px;
+    }
+    .txt-1 {
+        font-size: 10px;
+    }
+    .logo{
+        display: flex;
+        width: 120px;
+        align-items: center;
+        justify-content: center;
+
+    }
+    .top-header{
+        justify-content: space-around;
+    }
+  .header{
+    display: grid;
+    justify-content: center;
+    
+  }
+  .menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  ul.menu{
+    display: inline;
+    font-size: 10px;
+    flex-direction: column;
+  }
+  .container{
+    width: 390px;
+  }
+  .turmas{
+    width: 400px;
+  }
+  rodape{
+    display: flex;
+    flex-direction: column;
+  }
+  .rodape img{
+    width: 150px;
+  }
+  .contato{
+    padding-bottom: 20px;
+  }
+  .contato a{
+    margin-top: 55px;
+  }
+}
+@media (max-width: 1409px){
+    .container-serv{
+        height: 140vh;
+    }
+}
+@media (max-width: 1130px){
+    .container-serv{
+        height: 220vh;
+        display: flex;
+        flex-direction: column;
+    }
+   
+}
+@media (max-width: 1210px){
+   .header img{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .menu a{
+    font-size: 15px;
+   }
+}
